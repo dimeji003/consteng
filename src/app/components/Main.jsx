@@ -10,7 +10,7 @@ export default function Main() {
         <div>
             <Navbar/>
 
-            <div className='flex flex-col items-center w-[80%] m-auto md:pt-28 pt-52 text-white py-7'>
+            <div className='flex flex-col items-center w-[80%] m-auto md:pt-36 pt-52 text-white py-7'>
 
                 <div className='flex flex-col items-center border-b-2 border-[gold] text-3xl gap-4'>
                 <FaContao className='text-[gold] text-7xl'/>
