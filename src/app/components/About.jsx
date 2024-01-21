@@ -56,7 +56,7 @@ export default function About() {
               </div>
              <div className='flex flex-col gap-3'>
                 <h2 className='text-[gold]'>Community Impact</h2>
-                <p>Beyond constructing roads and bridges, we actively contribute to the communities we work in. Our community impact initiatives range from supporting local businesses to educational programs. Learn how Consteng strives to be a positive force in every project's surroundings.</p>
+                <p>{`Beyond constructing roads and bridges, we actively contribute to the communities we work in. Our community impact initiatives range from supporting local businesses to educational programs. Learn how Consteng strives to be a positive force in every project's surroundings.`}</p>
               </div>
 
             </div>
