@@ -25,6 +25,6 @@ export default function Backtotop() {
   }, [])
 
   return (
-    <button onClick={scrollToTop} className={`${isVisible ? 'block' : 'hidden'} text-4xl bg-black p-1 fixed z-20 bottom-6 right-0`}><FaArrowUp className='text-white text-2xl'/></button>
+    <button onClick={scrollToTop} className={`${isVisible ? 'block' : 'hidden'} text-4xl bg-black p-1 fixed z-20 bottom-6 right-0`}><FaArrowUp className='text-[gold] text-2xl'/></button>
   )
 }
