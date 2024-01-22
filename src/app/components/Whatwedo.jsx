@@ -8,7 +8,7 @@ import { FaEnvira } from "react-icons/fa6";
 
 export default function Whatwedo() {
   return (
-    <div className='py-12'>
+    <div id='whatwedo' className='py-12'>
         <h2 className='border-b border-[gold] w-[60%] text-center text-4xl  pb-3 m-auto'>What We Do</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-3 py-6 w-[90%] m-auto items-center gap-14'>

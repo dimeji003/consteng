@@ -3,7 +3,7 @@ import { MdOutlineVerifiedUser } from "react-icons/md";
 
 export default function About() {
   return (
-    <div className='flex flex-col md:flex-row bg-[#1f1f2e] gap-20 md:gap-0 text-white'>
+    <div id='about' className='flex flex-col md:flex-row bg-[#1f1f2e] gap-20 md:gap-0 text-white'>
         <div className='flex flex-col w-[95%] gap-9 m-auto py-6 md:w-[40%] md:m-0 p-8'>
             <div className='flex flex-row gap-4 items-start'>
               <div>
