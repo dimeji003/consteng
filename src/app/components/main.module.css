@@ -4,3 +4,23 @@
     height: 100vh;
     
 }
+.section{
+    position: relative;
+    right: -50px;
+    opacity: 0;
+    transition: opacity 3s, transform 1s;
+  }
+  .visible{
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+.sect{
+    position: relative;
+    left: -50px;
+    opacity: 0;
+    transition: opacity 3s, transform 1s;
+  }
+  .visi{
+    opacity: 1;
+    transform: translateX(30px);
+  }

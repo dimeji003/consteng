@@ -1,24 +1,28 @@
-import React from 'react'
+"use client"
+import React, { useEffect, useState } from 'react'
 import { FaRoad } from "react-icons/fa6";
 import { FaBridge } from "react-icons/fa6";
 import { GrVmMaintenance } from "react-icons/gr";
 import { MdOutlineTraffic } from "react-icons/md";
 import { BsFillCloudRainFill } from "react-icons/bs";
 import { FaEnvira } from "react-icons/fa6";
+import styles from './main.module.css'
 
 export default function Whatwedo() {
+
+   
   return (
     <div id='whatwedo' className='py-12'>
         <h2 className='border-b border-[gold] w-[60%] text-center text-4xl  pb-3 m-auto'>What We Do</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-3 py-6 w-[90%] m-auto items-center gap-14'>
-            <div className='flex flex-col items-center gap-4'>
+            <div className={`flex flex-col items-center gap-4 `} id='section1'>
             <FaRoad className='text-6xl  text-[gold]'/>
             <h2 className='text-2xl text-center'>Road Construction</h2>
             <p className='text-center'>At our construction company, we take a comprehensive approach to road construction. From meticulous planning and innovative design to the execution of the physical construction, our team ensures the development of durable and efficient road networks. We pride ourselves on adapting to the evolving needs of communities, delivering projects that stand as testaments to quality craftsmanship.</p>
 
             </div>
-            <div className='flex flex-col items-center gap-4'>
+            <div className={`flex flex-col items-center gap-4`} id='section2'>
             <FaBridge className='text-6xl text-[gold]'/>
             <h2 className='text-2xl text-center'>Bridge Construction</h2>
             <p className='text-center'>Our construction company specializes in the design and construction of robust bridges. Leveraging our expertise in engineering solutions and precise construction techniques, we deliver structures that not only meet but exceed safety and longevity standards. These bridges serve as vital links in transportation infrastructure, contributing to the connectivity and accessibility of regions.</p>
