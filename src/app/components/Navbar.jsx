@@ -21,11 +21,11 @@ export default function Navbar() {
     <div>
         <nav className='bg-transparent flex flex-row justify-between px-3 md:px-6 h-12 md:py-2 items-center'>
             <div>
-              <FaContao className='text-3xl md:text-4xl text-[gold]' />
+              <img src="/constenglogo.jfif" alt="consteng" width={40} height={40} />
 
             </div>
             <div> 
-            <ul className={`bg-white md:bg-transparent  md:text-white md:gap-9    md:relative md:flex md:flex-row flex flex-col fixed h-[100vh] md:h-[100%] w-[100%] top-0 bottom-0 left-0 items-center justify-around transition-transform transform ease-in-out duration-300 ${showNav ? 'translate-x-0' : '-translate-x-full md:translate-x-0'} `}>
+            <ul className={`bg-white md:bg-transparent  md:text-white md:gap-9    md:relative md:flex md:flex-row flex flex-col fixed h-[100vh] md:h-[100%] w-[100%] top-0 bottom-0 left-0 items-center justify-around transition-transform transform ease-in-out duration-500 py-20 ${showNav ? 'translate-x-0' : '-translate-x-full md:translate-x-0'} `}>
               
                 <li><MdCancel className='cursor-pointer md:hidden text-3xl' onClick={navbar}/></li>
                 <li className='transition duration-300 ease-in-out md:hover:border-b-2 border-[gold]'>HOME</li>

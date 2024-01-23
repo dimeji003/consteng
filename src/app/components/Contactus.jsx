@@ -32,7 +32,7 @@ export default function Contactus() {
                   <div className='w-[90%] m-auto flex flex-col gap-7'>
                     <div className='flex flex-row gap-16'><ImLocation className='text-4xl'/> <p>16 Oreta Road, Igbogbo, Ikorodu, Lagos State, Nigeria</p></div>
                     <div className='flex flex-row gap-16'><FaPhoneAlt className='text-2xl'/> <p>+2348075894251</p></div>
-                    <div className='flex flex-row gap-16'><IoMdMail className='text-2xl'/> <p>constendlimited@yahoo.com</p></div>
+                    <div className='flex flex-row gap-16'><IoMdMail className='text-2xl'/> <p>constenglimited@yahoo.com</p></div>
                   </div>
                 </div>
             </div>
